@@ -9,7 +9,7 @@ import {
 import { Address, BigInt } from "@graphprotocol/graph-ts"
 import { OwnershipTransferred } from "../generated/schema"
 import { OwnershipTransferred as OwnershipTransferredEvent } from "../generated/Contract/Contract"
-import { handleOwnershipTransferred } from "../src/contract"
+import { handleOwnershipTransferred } from "../src/BondingCurveMapping"
 import { createOwnershipTransferredEvent } from "./contract-utils"
 
 // Tests structure (matchstick-as >=0.5.0)
